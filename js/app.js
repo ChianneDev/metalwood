@@ -1,9 +1,9 @@
 class myHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-     <nav class="navbar navbar-expand-lg p-0 navbar-light">
+     <nav class="navbar navbar-expand-lg p-0 sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand mx-lg-5" href="home.html"><i class="bi bi-cassette-fill"></i> Metal Wood</a>
+        <a class="navbar-brand mx-lg-5" href="home.html"><i class="bi bi-cassette-fill"></i>Metal Wood</a>
         <button
           class="navbar-toggler my-1"
           type="button"
@@ -87,3 +87,11 @@ const paragraph = `
     `;
 
 document.getElementById("copyright").innerHTML = paragraph;
+
+function viewLineup() {
+  document.location.href = "line_up.html";
+}
+
+function viewTicket() {
+  document.location.href = "ticket.html";
+}

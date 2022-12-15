@@ -108,10 +108,12 @@
       <div
         class="d-flex flex-column align-items-center justify-content-center slide-text"
       >
-        <h3>Nevermind here's</h3>
-        <h1 style="font-size: 3em">Metal Wood Festival</h1>
+        <h3><b>Nevermind here's</b></h3>
+        <h1 style="font-size: 3em"><b>Metal Wood Festival</b></h1>
         <h5>18 Aug 2023 - 21 Aug 2023</h5>
-        <button class="btn-tickets mt-4">View Line-Up</button>
+        <button class="btn-lineup mt-4" onclick="viewLineup()">
+          <b>View line up</b>
+        </button>
       </div>
     </section>
     <section
@@ -119,10 +121,13 @@
     >
       <div class="d-flex w-75 d-flex justify-content-center align-items-center">
         <h1><b>Tickets are on sele now!</b></h1>
-        <button>view ticket</button>
+        <button onclick="viewTicket()">View ticket</button>
       </div>
     </section>
-    <section class="container-fluid">
+    <section class="container-fluid video-section">
+      <div class="video-head text-center py-5">
+        <b><h1>Video</h1></b>
+      </div>
       <div class="row p-2">
         <div class="col-lg-6 d-flex justify-content-center">
           <iframe
@@ -146,6 +151,8 @@
             allowfullscreen
           ></iframe>
         </div>
+      </div>
+      <div class="row p-2">
         <div class="col-lg-6 d-flex justify-content-center">
           <iframe
             width="560"
