@@ -76,7 +76,7 @@ footer {
   font-family: var(--fuzzy-bubbles);
   color: var(--light-cream);
 }
-
+/* Home page */
 /* photo's slide */
 .carousel-item {
   background-color: var(--black-blend-mode);
@@ -98,6 +98,24 @@ footer {
   width: 8rem;
   height: 2.5rem;
   border-radius: 1rem;
+}
+.view-ticket {
+  height: 170px;
+  background-color: goldenrod;
+  font-family: var(--fuzzy-bubbles);
+  font-weight: bolder;
+}
+.view-ticket div {
+  gap: 2rem;
+}
+.view-ticket button {
+  height: 60%;
+  width: 150px;
+  background-color: #bc4749;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: #c16c6d 5px 6px;
+  font-family: var(--fuzzy-bubbles);
 }
 
 /* Line Up page */
