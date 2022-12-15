@@ -35,7 +35,7 @@ class myHeader extends HTMLElement {
               <a href="line_up.html" class="nav-link">Line-Up</a>
             </li>
             <li class="nav-item container-fluid">
-              <a href="info.html" class="nav-link">Info</a>
+              <a href="info.html" class="nav-link">Gallery</a>
             </li>
           </ul>
           <div class="col-lg-4 d-flex justify-content-evenly p-3 py-lg-0">
